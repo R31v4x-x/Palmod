@@ -1,2 +1,2 @@
-Non published yet
-- Projectiles created by tamed NPCs now deal "Summon Damage"
+- Rewrote how the catching spheres are created
+- Added support for AltLibrary

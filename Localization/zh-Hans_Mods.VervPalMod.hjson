@@ -1,18 +1,3 @@
-Projectiles: {
-	SphereProj.DisplayName: 球
-	SphereProjHell.DisplayName: 球
-	SphereProjDesert.DisplayName: 球
-	SphereProjDungeon.DisplayName: 球
-	SphereProjEvil.DisplayName: 球
-	SphereProjHallow.DisplayName: 球
-	SphereProjJungle.DisplayName: 球
-	SphereProjSky.DisplayName: 球
-	SphereProjUnderground.DisplayName: 球
-	SphereProjUniversal.DisplayName: 球
-	SphereProjLuminite.DisplayName: 球
-	SphereProjDebug.DisplayName: 球
-}
-
 Common: {
 	ReleaseMode: 放生模式
 	CaptureMode: 捕捉模式
@@ -25,154 +10,126 @@ Common: {
 	NothingToRelease: 没有捕获物可以放生
 	Slots: 栏位
 	NoCaptures: 空空如也
+	SphereCommonTip:
+		'''
+		抓住敌怪，让它们变成你的打手
+		右键点击可以在捕捉和释放模式之间切换
+		捕捉球的伤害受召唤伤害加成
+		其他召唤物在场时，伤害会大幅削弱
+		'''
 }
 
 Items: {
-	Sphere: {
+	Sphere_Normal: {
 		DisplayName: 捕捉球
-		Tooltip:
-			'''
-			抓住敌怪，让它们变成你的打手
-			右键点击可以在捕捉和释放模式之间切换
-			捕捉球的伤害受召唤伤害加成
-			其他召唤物在场时，伤害会大幅削弱
-			'''
+		Tooltip: "{$Mods.VervPalMod.Common.SphereCommonTip}"
 	}
 
-	SphereHell: {
+	Sphere_Hell: {
 		DisplayName: 地狱捕捉球
 		Tooltip:
 			'''
-			抓住敌怪，让它们变成你的打手
-			右键点击可以在捕捉和释放模式之间切换
-			捕捉球的伤害受召唤伤害加成
-			其他召唤物在场时，伤害会大幅削弱
+			{$Mods.VervPalMod.Common.SphereCommonTip}
 			玩家在地狱时，捕捉能力和伤害会增加200%
 			捕一送一
 			'''
 	}
 
-	SphereDesert: {
+	Sphere_Desert: {
 		DisplayName: 沙漠捕捉球
 		Tooltip:
 			'''
-			抓住敌怪，让它们变成你的打手
-			右键点击可以在捕捉和释放模式之间切换
-			捕捉球的伤害受召唤伤害加成
-			其他召唤物在场时，伤害会大幅削弱
+			{$Mods.VervPalMod.Common.SphereCommonTip}
 			玩家在沙漠时，捕捉能力和伤害会增加200%
 			捕一送一
 			'''
 	}
 
-	SphereDungeon: {
+	Sphere_Dungeon: {
 		DisplayName: 地牢捕捉球
 		Tooltip:
 			'''
-			抓住敌怪，让它们变成你的打手
-			右键点击可以在捕捉和释放模式之间切换
-			捕捉球的伤害受召唤伤害加成
-			其他召唤物在场时，伤害会大幅削弱
+			{$Mods.VervPalMod.Common.SphereCommonTip}
 			玩家在地牢时，捕捉能力和伤害会增加200%
 			捕一送一
 			'''
 	}
 
-	SphereEvil: {
+	Sphere_Evil: {
 		DisplayName: 邪恶之地捕捉球
 		Tooltip:
 			'''
-			抓住敌怪，让它们变成你的打手
-			右键点击可以在捕捉和释放模式之间切换
-			捕捉球的伤害受召唤伤害加成
-			其他召唤物在场时，伤害会大幅削弱
+			{$Mods.VervPalMod.Common.SphereCommonTip}
 			玩家在邪恶之地时，捕捉能力和伤害会增加200%
 			捕一送一
 			'''
 	}
 
-	SphereHallow: {
+	Sphere_Holy: {
 		DisplayName: 神圣之地捕捉球
 		Tooltip:
 			'''
-			抓住敌怪，让它们变成你的打手
-			右键点击可以在捕捉和释放模式之间切换
-			捕捉球的伤害受召唤伤害加成
-			其他召唤物在场时，伤害会大幅削弱
+			{$Mods.VervPalMod.Common.SphereCommonTip}
 			玩家在神圣之地时，捕捉能力和伤害会增加200%
 			捕一送一
 			'''
 	}
 
-	SphereJungle: {
+	Sphere_Jungle: {
 		DisplayName: 丛林捕捉球
 		Tooltip:
 			'''
-			抓住敌怪，让它们变成你的打手
-			右键点击可以在捕捉和释放模式之间切换
-			捕捉球的伤害受召唤伤害加成
-			其他召唤物在场时，伤害会大幅削弱
+			{$Mods.VervPalMod.Common.SphereCommonTip}
 			玩家在丛林和发光蘑菇地时，捕捉能力和伤害会增加200%
 			捕一送一
 			'''
 	}
 
-	SphereSky: {
+	Sphere_Sky: {
 		DisplayName: 太空捕捉球
 		Tooltip:
 			'''
-			抓住敌怪，让它们变成你的打手
-			右键点击可以在捕捉和释放模式之间切换
-			捕捉球的伤害受召唤伤害加成
-			其他召唤物在场时，伤害会大幅削弱
+			{$Mods.VervPalMod.Common.SphereCommonTip}
 			玩家在太空时，捕捉能力和伤害会增加200%
 			捕一送一
 			'''
 	}
 
-	SphereUnderground: {
+	Sphere_Underground: {
 		DisplayName: 地下捕捉球
 		Tooltip:
 			'''
-			抓住敌怪，让它们变成你的打手
-			右键点击可以在捕捉和释放模式之间切换
-			捕捉球的伤害受召唤伤害加成
-			其他召唤物在场时，伤害会大幅削弱
+			{$Mods.VervPalMod.Common.SphereCommonTip}
 			玩家在纯净和冰雪地下时，捕捉能力和伤害会增加200%
 			捕一送一
 			'''
 	}
 
-	SphereUniversal: {
+	Sphere_Universal: {
 		DisplayName: 通用捕捉球
 		Tooltip:
 			'''
-			抓住敌怪，让它们变成你的打手
-			右键点击可以在捕捉和释放模式之间切换
-			捕捉球的伤害受召唤伤害加成
-			其他召唤物在场时，伤害会大幅削弱
+			{$Mods.VervPalMod.Common.SphereCommonTip}
 			捕捉能力和伤害增加250%
 			捕一送二
 			'''
 	}
 
-	SphereLuminite: {
+	Sphere_Luminite: {
 		DisplayName: 夜明捕捉球
 		Tooltip:
 			'''
-			抓住敌怪，让它们变成你的打手
-			右键点击可以在捕捉和释放模式之间切换
-			捕捉球的伤害受召唤伤害加成
-			其他召唤物在场时，伤害会大幅削弱
+			{$Mods.VervPalMod.Common.SphereCommonTip}
 			捕捉能力和伤害增加400%
 			捕一送四
 			'''
 	}
 
-	SphereDebug: {
+	Sphere_Debug: {
 		DisplayName: 开发人员专用捕捉球
 		Tooltip:
 			'''
+			{$Mods.VervPalMod.Common.SphereCommonTip}
 			抓敌怪没有限制
 			捕一送九
 			【测试物品】
@@ -184,4 +141,19 @@ Keybinds: {
 	Teleport.DisplayName: 传送捕获物至玩家处
 	Release.DisplayName: 放生所有捕获物
 	NoKill.DisplayName: 切换战斗和捕捉形态
+}
+
+Projectiles: {
+	// Sphere_Debug.DisplayName: Sphere Debug
+	// Sphere_Desert.DisplayName: Sphere Desert
+	// Sphere_Dungeon.DisplayName: Sphere Dungeon
+	// Sphere_Evil.DisplayName: Sphere Evil
+	// Sphere_Hell.DisplayName: Sphere Hell
+	// Sphere_Holy.DisplayName: Sphere Holy
+	// Sphere_Jungle.DisplayName: Sphere Jungle
+	// Sphere_Luminite.DisplayName: Sphere Luminite
+	// Sphere_Normal.DisplayName: Sphere Normal
+	// Sphere_Sky.DisplayName: Sphere Sky
+	// Sphere_Underground.DisplayName: Sphere Underground
+	// Sphere_Universal.DisplayName: Sphere Universal
 }

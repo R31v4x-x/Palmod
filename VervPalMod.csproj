@@ -1,16 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
+
 <Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\tModLoader.targets" />
   <PropertyGroup>
     <AssemblyName>VervPalMod</AssemblyName>
-    <TargetFramework>net6.0</TargetFramework>
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Items\" />
+	<Reference Include="AltLibrary">
+		<HintPath>..\ModAssemblies\AltLibrary_v1.2.dll</HintPath>
+	</Reference>
+    <Reference Include="AltLibrary">
+      <HintPath>..\ModAssemblies\AltLibrary_v2.0.2.2.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>

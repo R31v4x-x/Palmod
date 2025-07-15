@@ -1,0 +1,174 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\amand\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VervPalMod\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D39F08AC-0C4F-4AFD-B6E4-11F3F56A3750}|VervPalMod.csproj|c:\\users\\amand\\onedrive\\documents\\my games\\terraria\\tmodloader\\modsources\\vervpalmod\\items\\spheres\\sphere_base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39F08AC-0C4F-4AFD-B6E4-11F3F56A3750}|VervPalMod.csproj|solutionrelative:items\\spheres\\sphere_base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39F08AC-0C4F-4AFD-B6E4-11F3F56A3750}|VervPalMod.csproj|c:\\users\\amand\\onedrive\\documents\\my games\\terraria\\tmodloader\\modsources\\vervpalmod\\items\\spheres\\sphere_holy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39F08AC-0C4F-4AFD-B6E4-11F3F56A3750}|VervPalMod.csproj|solutionrelative:items\\spheres\\sphere_holy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39F08AC-0C4F-4AFD-B6E4-11F3F56A3750}|VervPalMod.csproj|c:\\users\\amand\\onedrive\\documents\\my games\\terraria\\tmodloader\\modsources\\vervpalmod\\vervpalmodglobalnpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39F08AC-0C4F-4AFD-B6E4-11F3F56A3750}|VervPalMod.csproj|solutionrelative:vervpalmodglobalnpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39F08AC-0C4F-4AFD-B6E4-11F3F56A3750}|VervPalMod.csproj|c:\\users\\amand\\onedrive\\documents\\my games\\terraria\\tmodloader\\modsources\\vervpalmod\\vervpalmodplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39F08AC-0C4F-4AFD-B6E4-11F3F56A3750}|VervPalMod.csproj|solutionrelative:vervpalmodplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39F08AC-0C4F-4AFD-B6E4-11F3F56A3750}|VervPalMod.csproj|c:\\users\\amand\\onedrive\\documents\\my games\\terraria\\tmodloader\\modsources\\vervpalmod\\vervpalmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39F08AC-0C4F-4AFD-B6E4-11F3F56A3750}|VervPalMod.csproj|solutionrelative:vervpalmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39F08AC-0C4F-4AFD-B6E4-11F3F56A3750}|VervPalMod.csproj|c:\\users\\amand\\onedrive\\documents\\my games\\terraria\\tmodloader\\modsources\\vervpalmod\\changelog.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D39F08AC-0C4F-4AFD-B6E4-11F3F56A3750}|VervPalMod.csproj|solutionrelative:changelog.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39F08AC-0C4F-4AFD-B6E4-11F3F56A3750}|VervPalMod.csproj|c:\\users\\amand\\onedrive\\documents\\my games\\terraria\\tmodloader\\modsources\\vervpalmod\\uis\\uistatesphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39F08AC-0C4F-4AFD-B6E4-11F3F56A3750}|VervPalMod.csproj|solutionrelative:uis\\uistatesphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39F08AC-0C4F-4AFD-B6E4-11F3F56A3750}|VervPalMod.csproj|c:\\users\\amand\\onedrive\\documents\\my games\\terraria\\tmodloader\\modsources\\vervpalmod\\localization\\en-us_mods.vervpalmod.hjson||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D39F08AC-0C4F-4AFD-B6E4-11F3F56A3750}|VervPalMod.csproj|solutionrelative:localization\\en-us_mods.vervpalmod.hjson||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39F08AC-0C4F-4AFD-B6E4-11F3F56A3750}|VervPalMod.csproj|c:\\users\\amand\\onedrive\\documents\\my games\\terraria\\tmodloader\\modsources\\vervpalmod\\misc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39F08AC-0C4F-4AFD-B6E4-11F3F56A3750}|VervPalMod.csproj|solutionrelative:misc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Misc.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VervPalMod\\Misc.cs",
+              "RelativeDocumentMoniker": "Misc.cs",
+              "ToolTip": "C:\\Users\\amand\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VervPalMod\\Misc.cs",
+              "RelativeToolTip": "Misc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T15:34:39.236Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sphere_Holy.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VervPalMod\\Items\\Spheres\\Sphere_Holy.cs",
+              "RelativeDocumentMoniker": "Items\\Spheres\\Sphere_Holy.cs",
+              "ToolTip": "C:\\Users\\amand\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VervPalMod\\Items\\Spheres\\Sphere_Holy.cs",
+              "RelativeToolTip": "Items\\Spheres\\Sphere_Holy.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCUAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T20:12:00.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "en-US_Mods.VervPalMod.hjson",
+              "DocumentMoniker": "C:\\Users\\amand\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VervPalMod\\Localization\\en-US_Mods.VervPalMod.hjson",
+              "RelativeDocumentMoniker": "Localization\\en-US_Mods.VervPalMod.hjson",
+              "ToolTip": "C:\\Users\\amand\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VervPalMod\\Localization\\en-US_Mods.VervPalMod.hjson",
+              "RelativeToolTip": "Localization\\en-US_Mods.VervPalMod.hjson",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-15T19:08:08.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UIStateSphere.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VervPalMod\\UIs\\UIStateSphere.cs",
+              "RelativeDocumentMoniker": "UIs\\UIStateSphere.cs",
+              "ToolTip": "C:\\Users\\amand\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VervPalMod\\UIs\\UIStateSphere.cs",
+              "RelativeToolTip": "UIs\\UIStateSphere.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T18:31:47.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sphere_Base.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VervPalMod\\Items\\Spheres\\Sphere_Base.cs",
+              "RelativeDocumentMoniker": "Items\\Spheres\\Sphere_Base.cs",
+              "ToolTip": "C:\\Users\\amand\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VervPalMod\\Items\\Spheres\\Sphere_Base.cs",
+              "RelativeToolTip": "Items\\Spheres\\Sphere_Base.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T18:28:11.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "changelog.txt",
+              "DocumentMoniker": "C:\\Users\\amand\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VervPalMod\\changelog.txt",
+              "RelativeDocumentMoniker": "changelog.txt",
+              "ToolTip": "C:\\Users\\amand\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VervPalMod\\changelog.txt",
+              "RelativeToolTip": "changelog.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-07-14T13:01:39.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VervPalMod.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VervPalMod\\VervPalMod.cs",
+              "RelativeDocumentMoniker": "VervPalMod.cs",
+              "ToolTip": "C:\\Users\\amand\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VervPalMod\\VervPalMod.cs",
+              "RelativeToolTip": "VervPalMod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T13:01:39.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VervPalModPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VervPalMod\\VervPalModPlayer.cs",
+              "RelativeDocumentMoniker": "VervPalModPlayer.cs",
+              "ToolTip": "C:\\Users\\amand\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VervPalMod\\VervPalModPlayer.cs",
+              "RelativeToolTip": "VervPalModPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T13:01:39.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VervPalModGlobalNPC.cs",
+              "DocumentMoniker": "C:\\Users\\amand\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VervPalMod\\VervPalModGlobalNPC.cs",
+              "RelativeDocumentMoniker": "VervPalModGlobalNPC.cs",
+              "ToolTip": "C:\\Users\\amand\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VervPalMod\\VervPalModGlobalNPC.cs",
+              "RelativeToolTip": "VervPalModGlobalNPC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T13:01:39.446Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -5,6 +5,7 @@ using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
+using VervPalMod.Items.Spheres;
 
 namespace VervPalMod
 {
@@ -60,26 +61,9 @@ namespace VervPalMod
         {
             if (shop.NpcType == NPCID.Merchant)
             {
-                shop.Add<Sphere>();
+                shop.Add<Sphere_Normal>();
             }
         }
-
-        /*
-        public override void ModifyActiveShop(NPC npc, string shopName, Item[] items)
-        {
-            if (npc.type == NPCID.Merchant)
-            {
-                for (int i = 0; i < items.Length; i++)
-                {
-                    if (items[i] is null)
-                    {
-                        items[i] = new Item(ModContent.ItemType<Sphere>());
-                        break;
-                    }
-                }
-            }
-        }
-        */
 
         public override void OnSpawn(NPC npc, IEntitySource source)
         {

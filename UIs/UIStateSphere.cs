@@ -8,6 +8,7 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.UI;
 using Terraria.UI.Chat;
+using VervPalMod.Items.Spheres;
 
 namespace VervPalMod.UIs
 {
@@ -37,7 +38,7 @@ namespace VervPalMod.UIs
             Player player = Main.LocalPlayer;
             VervPalModPlayer modPlayer = player.GetModPlayer<VervPalModPlayer>();
 
-            if (player.HeldItem.ModItem is SphereMain sphere)
+            if (player.HeldItem.ModItem is Sphere_Base_Item sphere)
             {
                 spriteBatch.End();
                 spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, SamplerState.PointClamp, DepthStencilState.None, Main.Rasterizer, null, Main.Transform);
@@ -60,7 +61,7 @@ namespace VervPalMod.UIs
                             Vector2 position = new Vector2(npc.Center.X, npc.position.Y + npc.gfxOffY - 32) - Main.screenPosition;
                             Color color = Lighting.GetColor((int)(npc.Center.X / 16f), (int)(npc.Center.Y / 16f));
 
-                            float threshold = sphere.GetCaptureThreshold();
+                            float threshold = sphere.GetCaptureThreshold(player);
                             if (npc.realLife == -1 || npc.realLife == npc.whoAmI)
                             {
                                 if (npc.life > npc.lifeMax * threshold && (npc.life + npc.defense * 0.5) > (threshold * 100 * (Main.hardMode ? 3 : 1))) spriteBatch.Draw(TextureStop, position, null, color * 0.75f, 0f, TextureStop.Size() * 0.5f, 1f, SpriteEffects.None, 0f);

@@ -7,6 +7,7 @@ using Terraria.GameInput;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
+using VervPalMod.Items.Spheres;
 
 namespace VervPalMod
 {
@@ -41,7 +42,7 @@ namespace VervPalMod
         {
             if (Player.whoAmI == Main.myPlayer)
             {
-                if (ModKeybindsLoader.Teleport.JustPressed && Player.HeldItem.ModItem is SphereMain)
+                if (ModKeybindsLoader.Teleport.JustPressed && Player.HeldItem.ModItem is Sphere_Base_Item)
                 {
                     if (TeleportCooldown >= 300)
                     {
@@ -64,7 +65,7 @@ namespace VervPalMod
                     }
                 }
 
-                if (ModKeybindsLoader.NoKill.JustPressed && Player.HeldItem.ModItem is SphereMain)
+                if (ModKeybindsLoader.NoKill.JustPressed && Player.HeldItem.ModItem is Sphere_Base_Item)
                 {
                     NoKillMode = !NoKillMode;
                     if (NoKillMode) CombatText.NewText(Player.Hitbox, Color.LightBlue, Language.GetTextValue(ModContent.GetInstance<VervPalMod>().GetLocalizationKey("Common.CaptureFormation")));
@@ -119,7 +120,7 @@ namespace VervPalMod
                     keepSelected = -1;
                 }
 
-                if (!(Player.HeldItem.ModItem is SphereMain)) SphereUI = false;
+                if (!(Player.HeldItem.ModItem is Sphere_Base_Item)) SphereUI = false;
 
                 if (Player.active)
                 {
@@ -164,7 +165,7 @@ namespace VervPalMod
 
                     foreach (Projectile projectile in Main.projectile)
                     {
-                        if (projectile.ModProjectile is SphereProj && projectile.ai[0] > -1 && projectile.owner == Player.whoAmI && projectile.active)
+                        if (projectile.ModProjectile is Sphere_Base_Proj && projectile.ai[0] > -1 && projectile.owner == Player.whoAmI && projectile.active)
                         {
                             CurrentTamedNPCs++;
                         }
